@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhay Kumar Singh's CV</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .cv-container {
+            background-color: #ffffff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 700px;
+            border-radius: 10px;
+            margin: 20px;
+            transition: transform 0.2s;
+        }
+
+        .cv-container:hover {
+            transform: scale(1.01);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .profile-photo {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-left: 20px;
+        }
+
+        .header-info {
+            text-align: left;
+            flex-grow: 1;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        p {
+            margin: 5px 0;
+            color: #666;
+        }
+
+        .contact-info {
+            margin-top: 10px;
+        }
+
+        .contact-info p {
+            margin-bottom: 5px;
+        }
+
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #444;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .cv-container:hover {
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+        }
+
+        @media screen and (max-width: 768px) {
+            .cv-container {
+                width: 90%;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .profile-photo {
+                width: 781px;
+                height: 837px;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            .header {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .header-info {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .contact-info {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cv-container">
+        <div class="header">
+            <div class="header-info">
+                <h1>Abhay Kumar Singh</h1>
+                <div class="contact-info">
+                    <p>Mobile: <a href="tel:+917903800758">+91-7903800758</a></p>
+                    <p>Email: <a href="mailto:2021wb86092@wilp.bits-pilani.ac.in">2021wb86092@wilp.bits-pilani.ac.in</a></p>
+                    <p>Address: Sarjapur, Bengaluru, Karnataka, 560035</p>
+                </div>
+            </div>
+            <img src="AbhayImage.jpg" alt="" class="profile-photo">
+        </div>
+        <div class="section">
+            <h2>Career Objectives</h2>
+            <p>To work in a challenging environment where I can utilize my skills and knowledge to contribute to the success of the organization while continuously improving myself.</p>
+        </div>
+        <div class="section">
+            <h2>Qualifications</h2>
+            <ul>
+                <li>MTech from BITS Pilani (Pursuing - 2021-2025)</li>
+                <li>Bachelor's Degree in Computer Application</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Generative AI Fundamentals</li>
+                <li>Azure OpenAI L1 for Technical</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Experience</h2>
+            <ul>
+                <li>Cloud Storage Engineer at Wipro (2+ years)</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
